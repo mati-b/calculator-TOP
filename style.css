@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vw;
+}
+
+.btn {
+    height: 5em;
+    width: 5em;
+    margin: 0.5em;
+    font-size: 1.25em;
+}
+ 
+.number {
+    border: 0.1em solid greenyellow;
+    border-radius: 15%;
+}
+
+.number:hover {
+    background-color: greenyellow;
+}
+
+.operator {
+    border: 0.1em solid skyblue;
+    border-radius: 15%;
+}
+
+.operator:hover {
+    background-color: skyblue;
+}
+
+.decimal {
+    border: 0.1em solid gold;
+    border-radius: 15%;
+}
+.decimal:hover {
+    background-color:gold;
+}
+
+.equal {
+    border: 0.1em solid #03be0d;
+    border-radius: 15%;
+}
+.equal:hover {
+    background-color: #03be0d;
+}
+
+.delete, 
+.clear {
+    border: 0.1em solid #ec5151;
+    border-radius: 15%;
+}
+.clear:hover {
+    background-color: #ec5151;
+}
+.delete:hover {
+    background-color: #ec5151;
+}
